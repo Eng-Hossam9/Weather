@@ -1,0 +1,178 @@
+.navbar {
+    background-color: #1E202B;
+}
+
+.navbar-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.site-description {
+
+
+    color: #BFC1C8;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.titel-section {
+    background-image: url('../images/banner.png');
+    background-size: cover;
+}
+
+
+
+.find-location {
+    position: relative;
+}
+
+.find-location input[type="text"] {
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.find-location input[type="submit"],
+.find-location input[type="button"] {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+}
+
+.weather-today {
+    background-color: #323544;
+    color: rgb(162, 161, 161);
+}
+
+.today-header {
+    background-color: #2D303D;
+}
+
+.num {
+    font-size: 6.5rem;
+    color: white;
+    font-weight: 700;
+    margin-right: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.forecast-icon {
+    margin-top: 4%;
+}
+
+.weather-tomorrow {
+    background-color: #262936;
+    color: rgb(162, 161, 161);
+}
+
+.tomorrow-header {
+
+    background-color: #222530;
+}
+
+.custom {
+    color: #009AD8;
+}
+
+.num1 {
+    font-size: 3rem;
+    color: white;
+    font-weight: 700;
+    margin-right: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.wheatherhight {
+    height: 389px;
+}
+
+.back {
+    background-color: #1E202B;
+}
+
+.site-footer {
+    background: #262936;
+    padding: 50px 0;
+}
+
+.site-footer .subscribe-form {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+
+.site-footer .subscribe-form input[type="text"] {
+    padding: 20px 100px 20px 20px;
+    background: #1e202b;
+    width: 100%;
+    color: white;
+}
+
+form input,
+form textarea,
+form select {
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.site-footer .subscribe-form input[type="submit"] {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+}
+
+.button,
+form input[type="submit"],
+form input[type="button"],
+form button,
+form input[type="reset"] {
+    border: none;
+    background: #009ad8;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    cursor: pointer;
+}
+
+form input {
+    outline: none;
+
+}
+
+.site-footer .social-links a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.site-footer .social-links a:hover {
+    background: #009ad8;
+    color: #fff;
+}
